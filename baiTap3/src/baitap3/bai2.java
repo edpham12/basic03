@@ -30,22 +30,22 @@ public class bai2 {
                 System.out.print(mangA[i] + ", ");
             }
         }
-        System.out.printf("\n");
+        System.out.println("\n");
         
         System.out.println("Tổng các số chẵn trong mảng là " + sum);
-        System.out.printf("\n");
+        System.out.println("\n");
         
         System.out.println("Phần tử ở vị trí chẵn trong mảng là : ");
         for (int i = 0; i < 10; i += 2) {
             System.out.print(mangA[i] + ", ");
         }
-        System.out.printf("\n");
+        System.out.println("\n");
 
         System.out.println("Phần tử ở vị trí lẻ trong mảng là : ");
         for (int i = 1; i < 10; i += 3) {
             System.out.print(mangA[i] + ", ");
         }
-        System.out.printf("\n");
+        System.out.println("\n");
 
         System.out.println("Phần tử chia hết cho 5 dư 1 trong mảng là : ");
         for (int i = 1; i < 10; i++) {
